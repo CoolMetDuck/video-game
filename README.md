@@ -3,3 +3,5 @@ you play as a square and try to dodge the laser while trying to get  coins
 #Link:
 
 https://coolmetduck.github.io/video-game/DesertGame.html
+
+##NOTE: this is only for computer use
