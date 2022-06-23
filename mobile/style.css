@@ -201,6 +201,8 @@
 .RoadTripLevel{
 
   display: none;
+     transform:scale(0.4);
+ position:absolute;
 }
 
 .LOGINSCREEN{
