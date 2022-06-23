@@ -210,36 +210,6 @@ function firstLevelClick(){
 
 
 
-function firstLevelDown() {
-    document.querySelector(".RoadTrip").style.transform = "scale(2.2)";
-
-
-
-
-}
-
-
-
-function firstLevelUp() {
-
-    document.querySelector(".RoadTrip").style.transform = "scale(2.0)";
-
-
-
-
-
-}
-
-
-
-function firstLevelLeave() {
-
-
- document.querySelector(".RoadTrip").style.transform = "scale(2.0)";
- 
-
-
-}
 
 // Pause Button
 
