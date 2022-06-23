@@ -102,7 +102,7 @@ function  Spik(){
 
         setInterval(()=> {
 
-            SPIKE-=10;
+            SPIKE--;
             document.querySelector(".spike").style.left = SPIKE + 'px';
          
             if (SPIKE <= 400){
@@ -128,7 +128,7 @@ function  Spik(){
                 
                 
             }
-        },1)
+        },5)
       
         
 
