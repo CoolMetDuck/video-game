@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+
+
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Image 4 tab -->
+    <link rel="icon" type="image/svg" href="img/googleIconTransp.svg">
+    <title>Startbucks Game</title>
+    <!-- Kanit google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@800&display=swap" rel="stylesheet"><!--/-->
+    <!--Roboto Condensed--> <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet"><!--/-->
+<!--Abel-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+<!--/-->
+
+<!--Secular One 400px-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+
+
+<!--/-->
+    </head>
+
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  
+  <body>
+
+    <noscript >
+      <!--If javascript is disabled-->
+  
+    
+  
+        <div class="Noscript">
+          <div class="NoScriptText">Opps! Javascript may be disabled!
+          Please enable JavaScript and try running this webpage again.
+        
+        
+          </div>
+         
+        </div>
+
+        <img src="NoScriptWarning.png" alt="NoJS" class="NoScriptImage"/>
+
+        
+  
+      
+  
+      
+    </noscript>
+    
+    
+ 
+    <!-- Main menu screen-->
+    <div class="menuscene1">
+      
+    <p class="desertGameTitle">StarBucks game</p>
+    <div >
+      <img src="YoutubeButton.png" alt="YouTubeButton" class="YouTubeButton" onmousedown="YouTubeButtonDown()" onmouseleave="YoutubeButtonLeave()" onmouseup="YouTubeButtonUp()" onclick="YouTubeButtonClick()"/>
+
+
+    </div>
+
+   
+    <button class="Quit" onclick="quit()">Quit program</button>
+    
+
+    
+    
+    <button class="playbutton" id="playbutton2" onclick="play()" onmousedown="buttonDown()" onmouseleave="buttonLeave()" >Play</button>
+   
+    </div>
+   <!-- Select level screen --> 
+   <div class="SelectLevelScreen"> 
+   <h1 class="SelectLevelTitle">Select a level</h1>
+   <img src="backtomenubutton.png" alt="BackToMenuScreenButton" class="BackToMenuScreenButton" onclick="menubuttonClick()" onmousedown="menubuttonDown()" onmouseup="menubuttonUp()" onmouseleave="menubuttonUp()">
+   
+  <div class="RoadTrip" onclick="firstLevelClick()" onmousedown="firstLevelDown()" onmouseup="firstLevelUp()"  onmouseleave="firstLevelLeave()"> <p class="RoadTrip2">Infinite level</p> </div>
+  
+   </div>
+  
+
+   <!--Road Trip (first level)---------------------------------------------------------------------------------------------------------->
+   <div class="RoadTripLevel">
+     <img src="pausebutton.png" alt="Pause Button" class="PauseButton"  onclick="PauseButtonClick()"/>
+ 
+  <div class="Square" onkeydown="SQMOVE()" onkeypress="SQJUMP()" on></div>
+
+     <img src="ControlButtonBackward.png" alt="button Backward" class="buttonBackward" onmouseenter="characterButtonControlBackward()"/>
+
+
+     <img src="ControlButtonFoward.png" alt="button Foward" class="buttonFoward"  onmouseenter="characterButtonControlFoward()"/>
+     <img src="Spacebtn.png" alt="spcae button" class="Space" onmousedown="characterButtonUp()"/>
+     <div class="ground"></div>
+     <div id="collision"></div>
+     <span class="NO">FALSE!</span>
+     <img src="mobileContrCheckBox.png" alt="Check box" class="disableMobileControles" onclick="disableMobile()"/>
+     <span class="disableMobiletxt">Disable mobile controls:</span>
+     <img src="Startbucks.png" alt="StarBucks coffee :)" class="StarBucks"/>
+     <span class="score">Score: </span>
+     <div class="spike"></div>
+     <div class="gameOver">
+      <span class="gameOverText">Game Over</span>
+      <span class="gOverLeave" onclick="gLeave()">leave</span>
+      <span class="gRetry" onclick="retry()">retry</span>
+      
+
+
+     </div>
+     
+    
+     
+   
+     
+
+     
+
+     <script src="script.js">
+    </script>
+
+
+ 
+
+    
+
+   
+
+   </div>
+
+  <!------------------------------------------------------------------------------------------------------------------------------------->
+  
+
+
+   
+   <!-- Pause Menu -->
+
+   
+   <div class="PauseMenu">
+    
+  
+     <span class="PauseText">Pause Menu</span>
+     <span class="PauseLeave" onclick="pauseLeave()" >
+
+      leave
+    </span >
+    <span class="PauseResume" onclick="pauseResume()">
+      resume
+    </span>
+    <span class="dJump">dont jump</span>
+    
+    
+   
+    
+    
+
+   </div>
+   
+
+   
+ 
+
+   
+      
+  
+  
+  
+  </div>
+
+  
+
+
+
+  
+  </body></html> 
