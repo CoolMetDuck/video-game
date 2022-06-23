@@ -630,7 +630,7 @@ function characterB(){
 function quit(){
 
 
-    window.close('http://127.0.0.1:5500/'); 
+   window.close('https://coolmetduck.github.io/video-game/mobile/DesertGame.html');
     
 }
 
