@@ -105,7 +105,7 @@ function  Spik(){
             SPIKE--;
             document.querySelector(".spike").style.left = SPIKE + 'px';
          
-            if (SPIKE <= 20){
+            if (SPIKE <= 50){
                 
                 SPIKE = 1000;
                 document.querySelector(".spike").style.left = SPIKE + 'px';
