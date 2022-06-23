@@ -39,9 +39,9 @@ function sqDELAY(){
      
   }
   function sqMOVEF(){
-    const SQUAREMVF = setInterval(sqMOVEFpp, 1);
+    const SQUAREMVF = setInterval(sqMOVEFpp, 2);
     function sqMOVEFpp(){
-        left+=100
+        left+=4
         Square.style.left = left + 'px';
     }
     setTimeout(sqMOVEFppS, 10);
@@ -56,9 +56,9 @@ function sqDELAY(){
   SQJUMP();
 
   function sqMOVEB(){
-    const SQUAREMVB = setInterval(sqMOVEBpp, 1);
+    const SQUAREMVB = setInterval(sqMOVEBpp, 2);
     function sqMOVEBpp(){
-        left-=100
+        left-=4
         Square.style.left = left + 'px';
     }
     setTimeout(sqMOVEBppS, 10);
