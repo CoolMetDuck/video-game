@@ -168,17 +168,6 @@ function menubuttonClick() {
 }
 
 
-function menubuttonDown() {
-
-    document.querySelector(".BackToMenuScreenButton").style.transform = "scale(1.2)";
-}
-
-function menubuttonUp() {
-
-    document.querySelector(".BackToMenuScreenButton").style.transform = "scale(1)";
-}
-
-
 //Youtube button
 
 
