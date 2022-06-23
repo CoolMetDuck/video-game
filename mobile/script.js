@@ -80,16 +80,16 @@ function sqDELAY(){
   }
  
   
-  let StarBucksLeft = randomNumber(100, (window.innerWidth - 100 ));
+  let StarBucksLeft = randomNumber(100, 900);
   
   
   
   
   ///////////
   function ran() {
-          StarBucks.style.left = randomNumber(1,innerWidth) + 'px';
+          StarBucks.style.left = randomNumber(1,900) + 'px';
   }
-  
+  ran();
   ///////////
   
 function  Spik(){
@@ -197,7 +197,7 @@ function firstLevelClick(){
     socre = 0;
     document.querySelector(".score").textContent = "Score: " + score;
   
-    StarBucksLeft = randomNumber(100, (window.innerWidth - 100 ));
+    StarBucksLeft = randomNumber(100, 1000);
     Square.style.left = '10px';
     Square.style.top = '500px';
     
@@ -246,15 +246,15 @@ function SQMOVE(){
             sqMOVEF()
             
    
-            if (left>= 1802){
-               left = 1792;
+            if (left>= 980){
+               left = 900;
                
                 
        
            }
     
            if (StarBucksLeft <= left)  {
-            StarBucksLeft = randomNumber(100,(innerWidth - 150));
+            StarBucksLeft = randomNumber(100,900);
             StarBucks.style.left = StarBucksLeft + 'px';
             score++;
                 document.querySelector(".score").textContent = "Score: " + score;
@@ -265,7 +265,7 @@ function SQMOVE(){
         if (StarBucksLeft<=left  &&  e.key == 'd' || e.key == 'D' || e.key == 'ArrowRight'){
             score--;
             document.querySelector(".score").textContent = "Score: " + score;
-            StarBucksLeft =innerWidth/2;
+            StarBucksLeft =490;
             StarBucks.style.left = StarBucksLeft + 'px';
 
 
@@ -286,7 +286,7 @@ function SQMOVE(){
         
             if (StarBucksLeft >= left){
                 
-                StarBucksLeft = randomNumber(100,(innerWidth - 150 ));
+                StarBucksLeft = randomNumber(100,900);
                 StarBucks.style.left = StarBucksLeft + 'px';
                 score++;
                 document.querySelector(".score").textContent = "Score: " + score;
@@ -295,7 +295,7 @@ function SQMOVE(){
             if (StarBucksLeft>=left  && e.key == 'a' || e.key == 'A' || e.key == 'ArrowLeft' ){
                 score--;
                 document.querySelector(".score").textContent = "Score: " + score;
-                StarBucksLeft =innerWidth/2;
+                StarBucksLeft =490;
                 StarBucks.style.left = StarBucksLeft + 'px';
     
     
@@ -376,7 +376,7 @@ function characterF(){
     
         sqMOVEF();
         if (StarBucksLeft <= left )  {
-            StarBucksLeft = randomNumber(100,(innerWidth - 150));
+            StarBucksLeft = randomNumber(100,900);
             StarBucks.style.left = StarBucksLeft + 'px';
             score++;
                 document.querySelector(".score").textContent = "Score: " + score;
@@ -393,8 +393,8 @@ function characterF(){
 
 
         }
-        if (left>= 1802){
-            left = 1792;
+        if (left>= 980){
+            left = 900;
             
         }
 
@@ -555,7 +555,7 @@ function characterB(){
    }
 
    //Square ground
-   document.querySelector(".ground").style.width = window.innerWidth + 'px';
+
    /////////
    function disableMobile(){
     
