@@ -105,9 +105,9 @@ function  Spik(){
             SPIKE--;
             document.querySelector(".spike").style.left = SPIKE + 'px';
          
-            if (SPIKE <= 400){
+            if (SPIKE <= 20){
                 
-                SPIKE = 1802;
+                SPIKE = 1000;
                 document.querySelector(".spike").style.left = SPIKE + 'px';
         
             }
@@ -246,7 +246,7 @@ function SQMOVE(){
             sqMOVEF()
             
    
-            if (left>= 980){
+            if (left>= 930){
                left = 900;
                
                 
@@ -393,7 +393,7 @@ function characterF(){
 
 
         }
-        if (left>= 980){
+        if (left>= 930){
             left = 900;
             
         }
