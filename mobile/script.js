@@ -181,32 +181,8 @@ function menubuttonUp() {
 
 //Youtube button
 
-function YouTubeButtonDown(){
-    document.querySelector(".YouTubeButton").style.transform  = "scale(1.2)";
-
-
-
-
-}
-
-function YoutubeButtonLeave() {
-
-
-document.querySelector(".YouTubeButton").style.transform = "scale(1)";
-
-}
-
-
-function YouTubeButtonUp() {
-
-
-
-    document.querySelector(".YouTubeButton").style.transform = "scale(1.2)";
-}
 
 function YouTubeButtonClick(){
-
-    document.querySelector(".YouTubeButton").style.transform = "scale(1.2)";
     window.open('https://www.youtube.com/channel/UCtbuOuewoBITuah1nB6fDeg/featured');
 
 
