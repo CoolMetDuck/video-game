@@ -121,7 +121,7 @@
 .SelectLevelTitle{
   position: absolute;
   top: 90px;
-  left: 10%;
+  left: 15%;
   text-align: center;
   transform:scale(1);
   font-family: 'Kanit', sans-serif;
@@ -163,9 +163,9 @@
  background: rgba(0, 0, 0,.4);
  position: absolute;
 
- left: 800px;
- top:400px;
- transform: scale(2);
+ left: 5%;
+ top:20px;
+ transform: scale(1);
 
 
 
@@ -180,7 +180,7 @@
   position: absolute;
   top: 25px;
   left: 170px;
-  transform: scale(4);
+  transform: scale(2);
   
   cursor:context-menu;
 }
