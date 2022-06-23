@@ -7,3 +7,5 @@ https://coolmetduck.github.io/video-game/DesertGame.html
 
 ## MOBILE : 
 https://coolmetduck.github.io/video-game/mobile/DesertGame.html
+
+Made by Ibrahim Siddiqui (CoolMetDuck)
