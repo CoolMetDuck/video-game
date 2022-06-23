@@ -154,19 +154,7 @@ document.querySelector(".SelectLevelScreen").style.display = "flex"
 
 }
 
-function buttonDown(){
 
-    document.querySelector(".playbutton").style.transform = "scale(2.5)";
-}
-
-function buttonLeave(){
-    document.querySelector(".playbutton").style.transform = "scale(2)";
-
-    
-    
-
-
-}
 
 //  back to the menu screen button
 function menubuttonClick() {
