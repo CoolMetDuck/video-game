@@ -83,7 +83,7 @@
     font-size:100px;
     text-align: center;
     position:absolute;
-    left: 30%;
+    left: 20%;
     top: -45px;
     transform: scale(0.5);
     
@@ -95,7 +95,7 @@
     border-width: 10px;
     border-color: black;  
     position: absolute;
-    left:30%;
+    left:20%;
     top: 400px;
     width: 400px;
     height:auto;
