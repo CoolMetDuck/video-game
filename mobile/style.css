@@ -228,7 +228,7 @@
 .PauseButton{
 
   position: absolute;
-  left: 1850px;
+  left: 900px;
   z-index: 4;
 }
 
@@ -240,8 +240,9 @@
   height: 600px;
   background: transparent;
   background: rgba(0, 0, 0,.7);
-  left: 600px;
-  top: 200px;
+  left: -150px;
+  top: -100px;
+ transform: scale(0.4);
 
 }
 .PauseText{
@@ -340,10 +341,10 @@
 
 .Space{
   cursor: pointer;
-  transform: scale(1.7);
+  transform: scale(1.5);
   position: absolute;
-  top: 740px;
-  left: 750px;
+  top: 960px;
+  left: 500px;
   display: flex;
 }
 
